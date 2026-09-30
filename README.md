@@ -1,4 +1,4 @@
-# Project Four – Retail Sales KPI Dashboard (Excel BI)
+# Project 3 – Retail Sales KPI Dashboard (Excel BI)
 
 This project builds an interactive Excel BI dashboard on top of a multi-year retail sales dataset (2023–2025). It showcases how Excel can be used as a lightweight BI tool to monitor revenue, profitability, and channel performance for a retail business.
 
@@ -9,7 +9,7 @@ This project builds an interactive Excel BI dashboard on top of a multi-year ret
 ## 📁 Folder Structure
 
 ```
-Project-Four/
+Project-3/
 │
 ├── data/
 │   ├── raw/
@@ -57,6 +57,14 @@ Project-Four/
 | `Revenue`, `COGS`, `Gross_Profit` | Financial metrics |
 
 All data is stored in an Excel Table named `tblSales_2023_2025` for easy formulas, PivotTables, and refresh.
+
+---
+
+## ✅ Prerequisites
+
+- Microsoft Excel 2016 or later (with Power Query support)
+- Raw source file: `data/raw/retail_sales_2023_2025.csv`
+- Dashboard workbook: `excel_dashboard/Retail_Sales_KPI_Dashboard.xlsx`
 
 ---
 
@@ -137,6 +145,12 @@ Slicers are connected to all relevant PivotTables, so selecting a year or channe
 6. Interact with slicers (Year, Channel, Region, Category) to explore performance.
 
 For a detailed step-by-step walkthrough, see **[docs/EXCEL_DASHBOARD_SETUP.md](docs/EXCEL_DASHBOARD_SETUP.md)**.
+
+The setup guide includes:
+- Data import and table standardization (`tblSales_2023_2025`)
+- PivotTable structure and KPI calculation layout
+- Dashboard formatting, slicers, trendline, and final polish
+- Data refresh workflow and full column reference
 
 ---
 
